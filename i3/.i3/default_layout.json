@@ -1,0 +1,350 @@
+// vim:ts=4:sw=4:et
+{
+    // workspace with 1 children
+    "border": "none",
+    "floating": "auto_off",
+    "layout": "splith",
+    "percent": 0.105820105820106,
+    "type": "workspace",
+    "nodes": [
+        {
+            "border": "none",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 1732,
+               "width": 3132,
+               "x": 34,
+               "y": 34
+            },
+            "name": "i3: Layout saving in i3 - Google Chrome",
+            "percent": 1,
+            "swallows": [
+               {
+               // "class": "^Google\\-chrome$",
+               "instance": "^google\\-chrome$",
+               // "title": "^i3\\:\\ Layout\\ saving\\ in\\ i3\\ \\-\\ Google\\ Chrome$",
+               // "transient_for": "^$",
+               // "window_role": "^browser$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    // workspace with 1 children
+    "border": "none",
+    "floating": "auto_off",
+    "layout": "splith",
+    "percent": 0.105820105820106,
+    "type": "workspace",
+    "nodes": [
+        {
+            "border": "none",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 1223,
+               "width": 1312,
+               "x": 0,
+               "y": 0
+            },
+            "name": "emacs@CrumblingArch",
+            "percent": 1,
+            "swallows": [
+               {
+               // "class": "^Emacs$",
+               "instance": "^emacs$",
+               // "title": "^emacs\\@CrumblingArch$",
+               // "transient_for": "^$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    // workspace with 2 children
+    "border": "none",
+    "floating": "auto_off",
+    "layout": "splith",
+    "percent": 0.105820105820106,
+    "type": "workspace",
+    "nodes": [
+        {
+            "border": "none",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 794,
+               "width": 1122,
+               "x": 0,
+               "y": 0
+            },
+            "name": "hangups",
+            "percent": 0.2,
+            "swallows": [
+               {
+               // "class": "^Gnome\\-terminal$",
+               // "instance": "^gnome\\-terminal\\-server$",
+               "title": "^hangups$",
+               // "transient_for": "^$",
+               // "window_role": "^gnome\\-terminal\\-window\\-c865e426\\-a783\\-44cd\\-a5b0\\-71ddc0bb7be7$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            // splitv split container with 2 children
+            "border": "none",
+            "floating": "auto_off",
+            "layout": "splitv",
+            "percent": 0.8,
+            "type": "con",
+            "nodes": [
+                {
+                    // splith split container with 1 children
+                    "border": "none",
+                    "floating": "auto_off",
+                    "layout": "splith",
+                    "percent": 0.6,
+                    "type": "con",
+                    "nodes": [
+                        {
+                            "border": "none",
+                            "current_border_width": 0,
+                            "floating": "auto_off",
+                            "geometry": {
+                               "height": 1693,
+                               "width": 3138,
+                               "x": 32,
+                               "y": 76
+                            },
+                            "name": "#computers - Discord",
+                            "percent": 1,
+                            "swallows": [
+                               {
+                               "class": "^discord$",
+                               // "instance": "^discord$",
+                               // "title": "^\\#computers\\ \\-\\ Discord$",
+                               // "transient_for": "^$",
+                               // "window_role": "^browser\\-window$"
+                               }
+                            ],
+                            "type": "con"
+                        }
+                    ]
+                },
+                {
+                    "border": "none",
+                    "current_border_width": 0,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 1689,
+                       "width": 1549,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "name": "Slack - Capstone Team Ford",
+                    "percent": 0.4,
+                    "swallows": [
+                       {
+                       "class": "^Slack$",
+                       // "instance": "^slack$",
+                       // "title": "^Slack\\ \\-\\ Capstone\\ Team\\ Ford$",
+                       // "transient_for": "^$",
+                       // "window_role": "^browser\\-window$"
+                       }
+                    ],
+                    "type": "con"
+                }
+            ]
+        }
+    ]
+}
+
+{
+    // workspace with 2 children
+    "border": "none",
+    "floating": "auto_off",
+    "fullscreen_mode": 1,
+    "layout": "splitv",
+    "percent": 0.158730158730159,
+    "type": "workspace",
+    "nodes": [
+        {
+            // splith split container with 2 children
+            "border": "none",
+            "floating": "auto_off",
+            "layout": "splith",
+            "percent": 0.8,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "none",
+                    "current_border_width": 0,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 794,
+                       "width": 1122,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "name": "aileen@CrumblingArch: ~",
+                    "percent": 0.5,
+                    "swallows": [
+                       {
+                       "class": "^Gnome\\-terminal$",
+                       // "instance": "^gnome\\-terminal\\-server$",
+                       // "title": "^aileen\\@CrumblingArch\\:\\ \\~$",
+                       // "transient_for": "^$",
+                       // "window_role": "^gnome\\-terminal\\-window\\-c9144dcd\\-ec41\\-42ba\\-8956\\-d4efe01ff1b6$"
+                       }
+                    ],
+                    "type": "con"
+                },
+                {
+                    "border": "none",
+                    "current_border_width": 0,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 794,
+                       "width": 1122,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "name": "man i3-save-tree",
+                    "percent": 0.5,
+                    "swallows": [
+                       {
+                       "class": "^Gnome\\-terminal$",
+                       // "instance": "^gnome\\-terminal\\-server$",
+                       // "title": "^man\\ i3\\-save\\-tree$",
+                       // "transient_for": "^$",
+                       // "window_role": "^gnome\\-terminal\\-window\\-20e6a775\\-2f21\\-4acb\\-bddf\\-fcbc4bf30d7f$"
+                       }
+                    ],
+                    "type": "con"
+                }
+            ]
+        },
+        {
+            "border": "none",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 794,
+               "width": 1122,
+               "x": 0,
+               "y": 0
+            },
+            "name": "i3-save-tree --output=eDP-1 > ~/.i3/default_layout.json",
+            "percent": 0.2,
+            "swallows": [
+               {
+               "class": "^Gnome\\-terminal$",
+               // "instance": "^gnome\\-terminal\\-server$",
+               // "title": "^i3\\-save\\-tree\\ \\-\\-output\\=eDP\\-1\\ \\>\\ \\~\\/\\.i3\\/default_layout\\.json$",
+               // "transient_for": "^$",
+               // "window_role": "^gnome\\-terminal\\-window\\-e9336bd7\\-34f4\\-40ca\\-aa99\\-321542c700c4$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    // workspace with 2 children
+    "border": "none",
+    "floating": "auto_off",
+    "layout": "splith",
+    "percent": 0.166666666666667,
+    "type": "workspace",
+    "nodes": [
+        {
+            "border": "none",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 1689,
+               "width": 3132,
+               "x": 0,
+               "y": 0
+            },
+            "name": "aileen - File Manager",
+            "percent": 0.5,
+            "swallows": [
+               {
+               // "class": "^Thunar$",
+               "instance": "^thunar$",
+               // "title": "^aileen\\ \\-\\ File\\ Manager$",
+               // "transient_for": "^$",
+               // "window_role": "^Thunar\\-1536939531\\-2439721285$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "none",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 1689,
+               "width": 3132,
+               "x": 0,
+               "y": 0
+            },
+            "name": "aileen - File Manager",
+            "percent": 0.5,
+            "swallows": [
+               {
+               // "class": "^Thunar$",
+               "instance": "^thunar$",
+               // "title": "^aileen\\ \\-\\ File\\ Manager$",
+               // "transient_for": "^$",
+               // "window_role": "^Thunar\\-1536939536\\-2553261004$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    // workspace with 1 children
+    "border": "none",
+    "floating": "auto_off",
+    "layout": "splith",
+    "percent": 0.357142857142857,
+    "type": "workspace",
+    "nodes": [
+        {
+            "border": "none",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 1690,
+               "width": 3132,
+               "x": 0,
+               "y": 0
+            },
+            "name": "Mozilla Firefox",
+            "percent": 1,
+            "swallows": [
+               {
+               "class": "^Firefox$",
+               // "instance": "^Navigator$",
+               // "title": "^Mozilla\\ Firefox$",
+               // "transient_for": "^$",
+               // "window_role": "^browser$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+

@@ -1,0 +1,37 @@
+# Frequently Used Aliases
+alias e="exit"
+alias c="clear"
+alias cdc="cd && clear"
+alias n="cdc && neofetch"
+alias cns="clear && neofetch && scrot -d 5 ~/Pictures/screenshots/%Y-%m-%d.png"
+alias s="source ~/.zshrc"
+alias i3-edit="nvim ~/.i3/config"
+alias l="ls -al"
+alias zal="nvim ~/.zsh_aliases"
+
+# Misc Programs with long names
+alias pipes="pipes.sh"
+alias weatherel="curl -s wttr.in/east_lansing | head -n -2"
+alias spsyu="sudo pacman -Syu"
+alias ysyu="yay -Syu"
+alias Rack="vcvrack"
+
+# SSH aliases
+alias desktop="ssh BigSkyDaddy"
+alias server="ssh AncientGatekeeper"
+alias remote="ssh aileen@52.144.35.61 -p 3969"
+
+# Functions
+function cheat() {
+    curl -s cheat.sh/"$1"
+}
+
+# gets weather for an arbitrary location. Multiple words must be separated by '+'
+function weather() {
+    curl -s wttr.in/~"$1" | head -n -4
+}
+
+# shows most-used commands, of the form "show-top 20" where the number argument is the number of commands to show
+function show-top() {
+    history | awk '{CMD[$2]++;count++;}END { for (a in CMD)print CMD[a] " " CMD[a]/count*100 "% " a;}' | grep -v "./" | column -c3 -s " " -t | sort -nr | nl |  head -n $1
+}
