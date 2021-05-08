@@ -46,7 +46,16 @@ You guessed it; broken. My failures to keep these parts of `i3` working motivate
 
 I'm going to commit an empty folder for now, because I know my work install of `neofetch` is more functional. I think I messed up the directory structure before, or something?
 
-### ZSH
+### oh-my-zsh
 
-Now THIS ONE I maintain; I use this stuff the most often! I do need to reconcile the divergence between the version in this repo and my work setup, though.
+Now THIS ONE I maintain; I use this stuff the most often! I do need to reconcile the divergence between the version in this repo and my work setup, though. Oh My ZSH should be installed before stowing this. Additionally, a few of the plugins I use must be cloned from their GitHub repos.
 
+- To install Oh My ZSH!:
+
+  - `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+
+- Plugins to clone:
+
+  - `git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting`
+
+  - `git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions`
