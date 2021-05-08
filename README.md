@@ -8,6 +8,18 @@ Aileen Morgan's dotfiles.
 
 - [The guide I based this on](https://alexpearce.me/2016/02/managing-dotfiles-with-stow/)
 
+## How to Set Up
+
+I'll use `zsh` as the example.
+
+1. Clone `dotfiles` into home directory
+
+2. `cd` into it
+
+3. Run `stow zsh`
+
+`stow` copies the contents of the `zsh` directory one level above where it is run; in this case, one level up is the home directory.
+
 ## What's Here?
 
 ### chrome-new-tab
@@ -38,14 +50,3 @@ I'm going to commit an empty folder for now, because I know my work install of `
 
 Now THIS ONE I maintain; I use this stuff the most often! I do need to reconcile the divergence between the version in this repo and my work setup, though.
 
-## How to Set Up
-
-I'll use `zsh` as the example.
-
-1. Clone `dotfiles` into home directory
-
-2. `cd` into it
-
-3. Run `stow zsh`
-
-`stow` copies the contents of the `zsh` directory one level above where it is run; in this case, one level up is the home directory.
