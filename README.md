@@ -59,3 +59,7 @@ Now THIS ONE I maintain; I use this stuff the most often! I do need to reconcile
   - `git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting`
 
   - `git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions`
+
+### vs-code
+
+This is a bit of a placeholder, to get something working before I merge in the definitive version. Based on my old laptop's settings, which I only set up last night.
