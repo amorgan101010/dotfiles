@@ -21,6 +21,7 @@
         "USB's",
         "USBs",
         "Woot",
+        "askpass",
         "auracle",
         "blech",
         "bootable",
@@ -65,6 +66,7 @@
         "sudoer",
         "swapon",
         "texinfo",
+        "texlive",
         "uncommented",
         "uncommenting",
         "unmount",
@@ -80,5 +82,10 @@
     "editor.fontFamily": "Fira Code",
     "window.menuBarVisibility": "compact",
     "editor.multiCursorModifier": "ctrlCmd",
-    "workbench.editor.untitled.hint": "hidden"
+    "workbench.editor.untitled.hint": "hidden",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "explorer.confirmDelete": false,
+    "[latex]": {
+        "editor.wordWrap": "on"
+    },
 }
