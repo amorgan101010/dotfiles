@@ -89,4 +89,7 @@
     "[latex]": {
         "editor.wordWrap": "on"
     },
+    "latex-workshop.view.pdf.invert": 1,
+    "markdown-preview-enhanced.enableTypographer": true,
+    "markdown-preview-enhanced.HTML5EmbedIsAllowedHttp": true
 }
