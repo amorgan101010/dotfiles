@@ -63,3 +63,5 @@ Now THIS ONE I maintain; I use this stuff the most often! I do need to reconcile
 ### vs-code
 
 This is a bit of a placeholder, to get something working before I merge in the definitive version. Based on my old laptop's settings, which I only set up last night.
+
+Another thing in need of setup with this part of the repo is managing configuration for different versions of VS Code. Right now [my Arch installer](https://github.com/amorgan101010/arch-setup) sets up the OSS version, but I'm using the "MS official" (and I think non-FOSS) version on my current install. I suppose it would be worth determining if I need anything outside the stuff available in the non-AUR repos...but even if I don't, I hate that the OSS version stores its config in a path with spaces. Feels like MS (or maybe the Arch packager, if they chose that path) is punishing me for using open source! For now, I've made a script to copy the non-OSS settings to the OSS path (so I can automate escaping spaces in the copy command).
