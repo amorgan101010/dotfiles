@@ -104,5 +104,8 @@ c
 #[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Install Ruby Gems to ~/gems (initially for [Jekyll](https://jekyllrb.com/docs/installation/ubuntu/))
-export GEM_HOME="$HOME/gems"
-export PATH="$HOME/gems/bin:$PATH"
+#export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
+#export PATH="$GEM_HOME/bin:$PATH"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
