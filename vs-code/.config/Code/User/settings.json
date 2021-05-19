@@ -9,6 +9,7 @@
     "editor.renderWhitespace": "boundary",
     "cSpell.userWords": [
         "AHHH",
+        "DIYing",
         "Deadname",
         "Dotfile",
         "Fira",
@@ -20,6 +21,7 @@
         "UEFI",
         "USB's",
         "USBs",
+        "Welp",
         "Woot",
         "askpass",
         "auracle",
@@ -27,6 +29,7 @@
         "bootable",
         "bootloader",
         "cgdisk",
+        "chroot's",
         "chrooting",
         "cparted",
         "dconf",
@@ -44,6 +47,8 @@
         "htop",
         "localdomain",
         "makepkg",
+        "markdownlint",
+        "metatask",
         "minwaita",
         "mirrorlist",
         "mkconfig",
@@ -61,6 +66,8 @@
         "pacstrapping",
         "peasy",
         "pkglist",
+        "rabbithole",
+        "repo's",
         "repos",
         "sgdisk",
         "shellcheck",
@@ -89,7 +96,12 @@
     "[latex]": {
         "editor.wordWrap": "on"
     },
+    "[markdown]": {
+        "editor.tabSize": 2
+    },
     "latex-workshop.view.pdf.invert": 1,
     "markdown-preview-enhanced.enableTypographer": true,
-    "markdown-preview-enhanced.HTML5EmbedIsAllowedHttp": true
+    "markdown-preview-enhanced.HTML5EmbedIsAllowedHttp": true,
+    "window.zoomLevel": 1,
+    "path-autocomplete.extensionOnImport": true
 }

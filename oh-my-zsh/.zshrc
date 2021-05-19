@@ -103,4 +103,6 @@ c
 
 #[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-
+# Install Ruby Gems to ~/gems (initially for [Jekyll](https://jekyllrb.com/docs/installation/ubuntu/))
+export GEM_HOME="$HOME/gems"
+export PATH="$HOME/gems/bin:$PATH"
