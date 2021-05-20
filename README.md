@@ -50,6 +50,10 @@ I'm going to commit an empty folder for now, because I know my work install of `
 
 Now THIS ONE I maintain; I use this stuff the most often! I do need to reconcile the divergence between the version in this repo and my work setup, though. Oh My ZSH should be installed before stowing this. Additionally, a few of the plugins I use must be cloned from their GitHub repos.
 
+Currently, the prompt I use displays info about the current ruby version, which I don't want. Gotta figure out how to disable that.
+
+@import "./images/ruby_in_prompt.png"
+
 - To install Oh My ZSH!:
 
   - `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
