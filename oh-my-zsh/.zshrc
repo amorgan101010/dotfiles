@@ -62,8 +62,6 @@ ZSH_THEME="gnzh"
 plugins=(
   git
   colored-man-pages
-  zsh-autosuggestions
-  zsh-syntax-highlighting
   vi-mode
 )
 
